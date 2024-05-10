@@ -1,4 +1,4 @@
-function chunkString(str, size) {
+function stringChop(str, size) {
   // Initialize an empty array to store the chunks
   const chunks = [];
   
