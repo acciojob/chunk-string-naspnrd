@@ -5,6 +5,7 @@ function stringChop(str, size) {
 		let subStr = str.slice(i, i + size);
 		chunks.push(subStr)
 	}
+	return chunks;
 }
 
 console.log(stringChop("Hello, world!", 5)); 
